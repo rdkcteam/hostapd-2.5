@@ -1,0 +1,17 @@
+interface=wlan1
+#ctrl_interface=/var/run/hostapd
+bridge=br0
+driver=nl80211
+ssid=hostapd_2_0-none-5g
+
+auth_algs=1
+wpa=0
+
+hw_mode=a
+channel=11
+ieee80211n=1
+#ht_capab=[HT40+][SHORT-GI-20][SHORT-GI-40]
+
+ignore_broadcast_ssid=0
+wmm_enabled=1
+bssid=00:e0:4c:81:92:cc
